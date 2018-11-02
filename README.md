@@ -9,11 +9,11 @@
 #### The Aquaspector has two designed versions, each with their own set of advantages and disadvantages. The *Field Device* is designed for environments whose testing conditions are initially unknown, and subject to change; this version allows the user to define these variables depending on such variation, and is therefore meant for versatile scientific usage. The *Faucet Device* is exactly as it sounds, an integrated design allows the device to have a significantly reduced form factor and is intended to be used as an attachment to consumer faucets; as a result of the reduced form factor this version utilizes low-power forms of spectral analysis fit for environments whose testing conditions are not subject to variation (i.e. a kitchen faucet).
 
 ### Comparison Chart
-#### |	Device				 | Field Version | Faucet Version |
-#### | ------------- 	 |:-------------:|:-------------: |
-#### | Voltage Range   | 4.5v - 5.5v 	 | 3.2v - N/A 			
-#### | Battery (mHA)	 |
-#### | Peak Luminosity |       
-#### | Interface 			 |
+ |	Device				 | Field Version | Faucet Version |
+ | ------------- 	 |:-------------:|:-------------: |
+ | Voltage Range   | 4.5v - 5.5v 	 | 3.2v - N/A 			
+ | Battery (mHA)	 |
+ | Peak Luminosity |       
+ | Interface 			 |
 
 ## Aquaspector Performance & Accuracy

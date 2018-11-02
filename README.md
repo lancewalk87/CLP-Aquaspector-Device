@@ -17,3 +17,6 @@
  | Interface 			 |
 
 ## Aquaspector Performance & Accuracy
+
+## Aquaspector User Portal
+#### The Aquaspector user portal is available on each of the following platforms: iOS, MacOSX, Android, Windows, and Browser.   

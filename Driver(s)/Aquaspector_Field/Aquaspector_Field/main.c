@@ -1,8 +1,9 @@
 /*
  * Aquaspector_Field.c
- *
+ * ------------------------------------------------
  * Created: 11/2/2018 7:47:04 AM
- * Author : walke
+ * Author : Lance Walker 
+ * ------------------------------------------------
  */ 
 
 #include <avr/io.h>

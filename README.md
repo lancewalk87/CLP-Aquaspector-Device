@@ -12,7 +12,7 @@ Abstract
 
 #### All of this can be accomplished provided the testing device is designed properly, therein lies the goal and direction of this project. We must understand the traits of common contaminates, as well as distinct ways in which light interacts with substances. In order to accomplish this feat, we must utilize a variety of scientific orientations (i.e. Physics, Biology, and Chemistry) to create a device that cohesively functions to produce results that help mitigate water related health risks. The greatest issue that the project must address is the ability to make a distinction between chemical, and biological contaminates.
 
-***[To View Full Research Paper Click Here](https://github.com/lancewalk87/CLP-Aquaspector-Device/blob/master/docs/Applied%20Spectrophotometry.pdf)***
+> ***[To View Full Research Paper Click Here](https://github.com/lancewalk87/CLP-Aquaspector-Device/blob/master/docs/Applied%20Spectrophotometry.pdf)***
 
 ## Aquaspector Device General Overview
 #### The Aquaspector has two designed versions, each with their own set of advantages and disadvantages. The *Field Device* is designed for environments whose testing conditions are initially unknown, and subject to change; this version allows the user to define these variables depending on such variation, and is therefore meant for versatile scientific usage. The *Faucet Device* is exactly as it sounds, an integrated design allows the device to have a significantly reduced form factor and is intended to be used as an attachment to consumer faucets; as a result of the reduced form factor this version utilizes low-power forms of spectral analysis fit for environments whose testing conditions are not subject to variation (i.e. a kitchen faucet).

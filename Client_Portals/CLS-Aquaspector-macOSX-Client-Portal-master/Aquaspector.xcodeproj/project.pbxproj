@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17760DF8218ADBF40072665B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17760DF7218ADBF40072665B /* AppDelegate.swift */; };
+		17760DFB218ADBF40072665B /* Aquaspector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17760DF9218ADBF40072665B /* Aquaspector.xcdatamodeld */; };
+		17760DFD218ADBF50072665B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17760DFC218ADBF50072665B /* Assets.xcassets */; };
+		17760E00218ADBF50072665B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17760DFE218ADBF50072665B /* MainMenu.xib */; };
+		17760E0C218ADBF50072665B /* AquaspectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17760E0B218ADBF50072665B /* AquaspectorTests.swift */; };
+		17760E17218ADBF50072665B /* AquaspectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17760E16218ADBF50072665B /* AquaspectorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17760E08218ADBF50072665B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17760DEC218ADBF40072665B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17760DF3218ADBF40072665B;
+			remoteInfo = Aquaspector;
+		};
+		17760E13218ADBF50072665B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17760DEC218ADBF40072665B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17760DF3218ADBF40072665B;
+			remoteInfo = Aquaspector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17760DF4218ADBF40072665B /* Aquaspector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquaspector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17760DF7218ADBF40072665B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17760DFA218ADBF40072665B /* Aquaspector.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aquaspector.xcdatamodel; sourceTree = "<group>"; };
+		17760DFC218ADBF50072665B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17760DFF218ADBF50072665B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		17760E01218ADBF50072665B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17760E02218ADBF50072665B /* Aquaspector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aquaspector.entitlements; sourceTree = "<group>"; };
+		17760E07218ADBF50072665B /* AquaspectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaspectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17760E0B218ADBF50072665B /* AquaspectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaspectorTests.swift; sourceTree = "<group>"; };
+		17760E0D218ADBF50072665B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17760E12218ADBF50072665B /* AquaspectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AquaspectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17760E16218ADBF50072665B /* AquaspectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquaspectorUITests.swift; sourceTree = "<group>"; };
+		17760E18218ADBF50072665B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17760DF1218ADBF40072665B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17760E04218ADBF50072665B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17760E0F218ADBF50072665B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17760DEB218ADBF40072665B = {
+			isa = PBXGroup;
+			children = (
+				17760DF6218ADBF40072665B /* Aquaspector */,
+				17760E0A218ADBF50072665B /* AquaspectorTests */,
+				17760E15218ADBF50072665B /* AquaspectorUITests */,
+				17760DF5218ADBF40072665B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17760DF5218ADBF40072665B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17760DF4218ADBF40072665B /* Aquaspector.app */,
+				17760E07218ADBF50072665B /* AquaspectorTests.xctest */,
+				17760E12218ADBF50072665B /* AquaspectorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17760DF6218ADBF40072665B /* Aquaspector */ = {
+			isa = PBXGroup;
+			children = (
+				17760DF7218ADBF40072665B /* AppDelegate.swift */,
+				17760DFC218ADBF50072665B /* Assets.xcassets */,
+				17760DFE218ADBF50072665B /* MainMenu.xib */,
+				17760E01218ADBF50072665B /* Info.plist */,
+				17760E02218ADBF50072665B /* Aquaspector.entitlements */,
+				17760DF9218ADBF40072665B /* Aquaspector.xcdatamodeld */,
+			);
+			path = Aquaspector;
+			sourceTree = "<group>";
+		};
+		17760E0A218ADBF50072665B /* AquaspectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				17760E0B218ADBF50072665B /* AquaspectorTests.swift */,
+				17760E0D218ADBF50072665B /* Info.plist */,
+			);
+			path = AquaspectorTests;
+			sourceTree = "<group>";
+		};
+		17760E15218ADBF50072665B /* AquaspectorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17760E16218ADBF50072665B /* AquaspectorUITests.swift */,
+				17760E18218ADBF50072665B /* Info.plist */,
+			);
+			path = AquaspectorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17760DF3218ADBF40072665B /* Aquaspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17760E1B218ADBF50072665B /* Build configuration list for PBXNativeTarget "Aquaspector" */;
+			buildPhases = (
+				17760DF0218ADBF40072665B /* Sources */,
+				17760DF1218ADBF40072665B /* Frameworks */,
+				17760DF2218ADBF40072665B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aquaspector;
+			productName = Aquaspector;
+			productReference = 17760DF4218ADBF40072665B /* Aquaspector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17760E06218ADBF50072665B /* AquaspectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17760E1E218ADBF50072665B /* Build configuration list for PBXNativeTarget "AquaspectorTests" */;
+			buildPhases = (
+				17760E03218ADBF50072665B /* Sources */,
+				17760E04218ADBF50072665B /* Frameworks */,
+				17760E05218ADBF50072665B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17760E09218ADBF50072665B /* PBXTargetDependency */,
+			);
+			name = AquaspectorTests;
+			productName = AquaspectorTests;
+			productReference = 17760E07218ADBF50072665B /* AquaspectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17760E11218ADBF50072665B /* AquaspectorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17760E21218ADBF50072665B /* Build configuration list for PBXNativeTarget "AquaspectorUITests" */;
+			buildPhases = (
+				17760E0E218ADBF50072665B /* Sources */,
+				17760E0F218ADBF50072665B /* Frameworks */,
+				17760E10218ADBF50072665B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17760E14218ADBF50072665B /* PBXTargetDependency */,
+			);
+			name = AquaspectorUITests;
+			productName = AquaspectorUITests;
+			productReference = 17760E12218ADBF50072665B /* AquaspectorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17760DEC218ADBF40072665B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "CodeLife-Productions";
+				TargetAttributes = {
+					17760DF3218ADBF40072665B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					17760E06218ADBF50072665B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17760DF3218ADBF40072665B;
+					};
+					17760E11218ADBF50072665B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 17760DF3218ADBF40072665B;
+					};
+				};
+			};
+			buildConfigurationList = 17760DEF218ADBF40072665B /* Build configuration list for PBXProject "Aquaspector" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17760DEB218ADBF40072665B;
+			productRefGroup = 17760DF5218ADBF40072665B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17760DF3218ADBF40072665B /* Aquaspector */,
+				17760E06218ADBF50072665B /* AquaspectorTests */,
+				17760E11218ADBF50072665B /* AquaspectorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17760DF2218ADBF40072665B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17760DFD218ADBF50072665B /* Assets.xcassets in Resources */,
+				17760E00218ADBF50072665B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17760E05218ADBF50072665B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17760E10218ADBF50072665B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17760DF0218ADBF40072665B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17760DFB218ADBF40072665B /* Aquaspector.xcdatamodeld in Sources */,
+				17760DF8218ADBF40072665B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17760E03218ADBF50072665B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17760E0C218ADBF50072665B /* AquaspectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17760E0E218ADBF50072665B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17760E17218ADBF50072665B /* AquaspectorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17760E09218ADBF50072665B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17760DF3218ADBF40072665B /* Aquaspector */;
+			targetProxy = 17760E08218ADBF50072665B /* PBXContainerItemProxy */;
+		};
+		17760E14218ADBF50072665B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17760DF3218ADBF40072665B /* Aquaspector */;
+			targetProxy = 17760E13218ADBF50072665B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17760DFE218ADBF50072665B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17760DFF218ADBF50072665B /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17760E19218ADBF50072665B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17760E1A218ADBF50072665B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		17760E1C218ADBF50072665B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Aquaspector/Aquaspector.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = Aquaspector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.Aquaspector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		17760E1D218ADBF50072665B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Aquaspector/Aquaspector.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = Aquaspector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.Aquaspector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		17760E1F218ADBF50072665B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = AquaspectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.AquaspectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aquaspector.app/Contents/MacOS/Aquaspector";
+			};
+			name = Debug;
+		};
+		17760E20218ADBF50072665B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = AquaspectorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.AquaspectorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aquaspector.app/Contents/MacOS/Aquaspector";
+			};
+			name = Release;
+		};
+		17760E22218ADBF50072665B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = AquaspectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.AquaspectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Aquaspector;
+			};
+			name = Debug;
+		};
+		17760E23218ADBF50072665B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K2EH573CUQ;
+				INFOPLIST_FILE = AquaspectorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeLife-Productions.AquaspectorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Aquaspector;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17760DEF218ADBF40072665B /* Build configuration list for PBXProject "Aquaspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17760E19218ADBF50072665B /* Debug */,
+				17760E1A218ADBF50072665B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17760E1B218ADBF50072665B /* Build configuration list for PBXNativeTarget "Aquaspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17760E1C218ADBF50072665B /* Debug */,
+				17760E1D218ADBF50072665B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17760E1E218ADBF50072665B /* Build configuration list for PBXNativeTarget "AquaspectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17760E1F218ADBF50072665B /* Debug */,
+				17760E20218ADBF50072665B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17760E21218ADBF50072665B /* Build configuration list for PBXNativeTarget "AquaspectorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17760E22218ADBF50072665B /* Debug */,
+				17760E23218ADBF50072665B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17760DF9218ADBF40072665B /* Aquaspector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17760DFA218ADBF40072665B /* Aquaspector.xcdatamodel */,
+			);
+			currentVersion = 17760DFA218ADBF40072665B /* Aquaspector.xcdatamodel */;
+			path = Aquaspector.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17760DEC218ADBF40072665B /* Project object */;
+}

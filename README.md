@@ -5,6 +5,8 @@
 * [**Models**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/Models): Device Hardware.
 * [**PCBs**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/PCBs): Device Circuits.
 * [**Schematics**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/Schematics): Device Schematics.  
+* [**Client_Portals**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/Client_Portals): Client Portals: Browser, Android, iOS, Windows, macOSX.    
+
 
 Abstract
 --------
@@ -27,5 +29,5 @@ Abstract
 
 ## Aquaspector Performance & Accuracy
 
-## Aquaspector User Portal
+## Aquaspector User Portals
 #### The Aquaspector user portal is available on each of the following platforms: iOS, MacOSX, Android, Windows, and Browser.   

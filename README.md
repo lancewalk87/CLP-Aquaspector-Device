@@ -1,6 +1,6 @@
 # CLP-Aquaspector-Device
 ### Project Structure:
-* [**docs**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/docs): Project Documentation.
+* [**Docs**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/docs): Project Documentation.
 * [**Drivers**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/Drivers): Device System Software.
 * [**Models**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/Models): Device Hardware.
 * [**PCBs**](https://github.com/lancewalk87/CLP-Aquaspector-Device/tree/master/PCBs): Device Circuits.
